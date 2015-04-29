@@ -1,0 +1,4 @@
+all:
+	g++ -I/afs/umich.edu/user/l/i/liujm/Desktop/cplexTest -I/usr/caen/cplex-12.6/cplex/include -I/usr/caen/cplex-12.6/concert/include -o test test.cpp -L/usr/caen/cplex-12.6/concert/lib/x86-64_linux/static_pic -L/usr/caen/cplex-12.6/cplex/lib/x86-64_linux/static_pic -DIL_STD -std=c++11
+warehouse:
+	g++ -I/afs/umich.edu/user/l/i/liujm/Desktop/cplexTest -I/usr/caen/cplex-12.6/cplex/include -I/usr/caen/cplex-12.6/concert/include -o warehouse warehouse.cpp -L/usr/caen/cplex-12.6/concert/lib/x86-64_linux/static_pic -L/usr/caen/cplex-12.6/cplex/lib/x86-64_linux/static_pic -DIL_STD -std=c++11
